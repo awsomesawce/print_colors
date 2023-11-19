@@ -1,0 +1,15 @@
+
+# Deno template downloaded with gut
+
+### Deno ###
+/.idea/
+/.vscode/
+
+/node_modules
+
+.env
+*.orig
+*.pyc
+*.swp
+
+.gut
