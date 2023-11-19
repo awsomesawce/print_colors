@@ -13,3 +13,9 @@
 *.swp
 
 .gut
+
+# BEGIN PERSONAL ADDITIONS
+
+Taskfile.yml
+
+# END PERSONAL ADDITIONS

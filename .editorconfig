@@ -18,7 +18,7 @@ end_of_line = crlf
 charset = utf-8
 trim_trailing_whitespace = false
 # insert_final_newline might be necessary in some situations. In Perl I think it's a necessity.
-insert_final_newline = true
+insert_final_newline = false
 
 [*.json]
 indent_size = 2
@@ -42,4 +42,7 @@ indent_size = 4
 indent_style = space
 
 # NOTE: `dotnet` has a few _dotnet-only_ keys for editorconfig.  Use the cli to generate one.
+
+[.gitignore]
+insert_final_newline = true
 
