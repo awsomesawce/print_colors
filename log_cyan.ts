@@ -19,3 +19,7 @@ export function logCyan(str: string): void {
     
   }
 }
+
+if (import.meta.main) {
+  logCyan("Hello World");
+}
