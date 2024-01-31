@@ -1,0 +1,9 @@
+modules = ["bash:v1-20231215-e6d471c"]
+run = "deno run -A main.ts"
+
+[nix]
+channel = "stable-23_05"
+
+[deployment]
+run = ["sh", "-c", "deno run -A main.ts"]
+deploymentTarget = "cloudrun"
