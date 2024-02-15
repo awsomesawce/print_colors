@@ -17,5 +17,6 @@
 # BEGIN PERSONAL ADDITIONS
 
 Taskfile.yml
+ignore/*
 
 # END PERSONAL ADDITIONS

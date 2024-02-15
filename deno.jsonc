@@ -1,9 +1,26 @@
 {
   "tasks": {
-    "dev": "deno run --watch main.ts"
+    "dev": "deno run --watch main.ts",
+    "mdDemo": "deno run https://deno.land/x/charmd/example.ts",
+    "what": "deno run -A data_t/what.ts",
+    "ls": "ls ."
   },
   "imports": {
     "$std/": "https://deno.land/std@0.212.0/",
     "$x/": "https://deno.land/x/"
+  },
+  "fmt": {
+    "lineWidth": 100,
+    "indentWidth": 2
+  },
+  "test": {
+    "exclude": ["ignore/*"]
+  },
+  "compilerOptions": {
+    "strict": true,
+    "allowJs": true,
+    "noImplicitOverride": true,
+    "checkJs": true,
+    "experimentalDecorators": true
   }
 }
